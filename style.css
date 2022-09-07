@@ -2,16 +2,82 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.btn-info {
+    color: white;
+    background-color: #289BDE;
+    padding: 13px 28px;
+}
+
+.btn-info:hover {
+    color: white;
+}
+
+.inside-text {
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .carousel-item {
     background: linear-gradient(to top, #fff000 0%, #000fff 100%) !important;
 }
 
-.heading-title-navigation {
-    font-weight: 500;
-    font-size: 30px;
+@media (max-width:1201px) {
+    .carousel-item h1 {
+        font-size: 36px !important;
+    }
 }
 
-.heading-title {
-    font-weight: 600;
-    font-size: 65px;
+@media (max-width:769px) {
+    .carousel-item h1 {
+        font-size: 20px !important;
+    }
+
+    .carousel-item p {
+        font-size: 10px !important;
+    }
+
+    .register-button {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 577px) {
+    .carousel-item h1 {
+        font-size: 16px !important;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    .carousel-item p {
+        font-size: 8px !important;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 100px;
+    }
+
+    .carousel-item .btn {
+        font-size: 10px;
+        padding: 4px 6px;
+        margin: auto;
+    }
+
+    .course {
+        flex-direction: column;
+    }
+
+    .discover {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .register-button {
+        flex-direction: column;
+    }
 }
