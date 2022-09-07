@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item {
+    background: linear-gradient(to top, #fff000 0%, #000fff 100%) !important;
+}
+
+.heading-title-navigation {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.heading-title {
+    font-weight: 600;
+    font-size: 65px;
+}
